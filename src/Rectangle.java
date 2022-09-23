@@ -62,6 +62,11 @@ public class Rectangle
         {
             width = newWidth;
         }
+        public int calculateperimeter(int width, int length)
+        {
+            int perimeter = 2 * width + 2 * length;
+            return perimeter;
+        }
 
         // Calculates and returns the area of the Rectangle
         public int calculateArea()
